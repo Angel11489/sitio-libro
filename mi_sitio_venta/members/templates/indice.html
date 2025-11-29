@@ -1,0 +1,37 @@
+% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Índice - Libros{% endblock %}
+
+{% block content %}
+<section id="indice">     
+  <h2>INDICE</h2>
+    <p>hola este sitio web fue creado con el proposito de motivar a los jovenes a leer un libro</p>
+    <p>Beneficios de la lectura: la lectura puede tener multiples Beneficios.</p>
+    <ul>
+        <li><strong>Ampliar conocimientos:</strong> Ya sea historia, ciencia, cultura o ficción, los libros son una ventana al conocimiento infinito.</li>
+        <li><strong>Relajación y escape:</strong> Leer puede ser una forma increíble de desconectar del estrés diario y explorar otros mundos o perspectivas.</li>
+        <li><strong>Fomentar la creatividad:</strong> Las historias y los conceptos únicos de los libros pueden inspirarte a pensar de maneras nuevas y emocionantes.</li>
+        <li><strong>Desarrollar empatía:</strong> Al experimentar vidas y pensamientos de otros personajes, puedes entender mejor a las personas a tu alrededor.</li>
+        <li><strong>Habilidades lingüísticas:</strong> ...</li>
+        <li><strong>Diversión sin límites:</strong> Los libros pueden ser tan adictivos como cualquier serie de televisión o película.</li>
+        <li><strong>Crecimiento personal:</strong> Muchos libros están llenos de lecciones de vida, sabiduría y perspectivas que pueden ayudarte a crecer como persona.</li>
+    </ul>
+</section>
+
+<section id="presentacion">
+    <p>creador del sitio web</p>
+    <p>4 EF alumno Angel Osiris Ibarra Chalí</p>
+</section>
+
+<section id="destacados">
+    <div class="tarjeta">
+        <img src="{% static 'imagenes/alas de sangre.jpg' %}" alt="Alas de Sangre"  width="300" height="300">
+        <li><a href="#" STYLE="color:#00ff37e7">libros</a></li>
+    </div>
+    <div class="tarjeta">
+        <img src="{% static 'imagenes/Black Clover.jpg' %}" alt="Black Clover"  width="300" height="300">
+        <li><a href="#" STYLE="color:#00ff37e7">manga</a></li>            
+    </div>
+</section>
+{% endblock %}
